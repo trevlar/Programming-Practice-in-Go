@@ -5,13 +5,14 @@ This repository contains solutions I have created for programming algorithms, da
 > ### Spoiler Alert!
 > This repository has solutions to challenges, quizzes, and tests on the web. Before viewing my solutions I recommend going through the links below and solving these challenges yourself.
 
-## Websites
-* http://codingdojo.org/kata/
-* http://leetcode.com
-
 ## Problems Solved
-* [Potter Kata on CodingDojo](http://codingdojo.org/kata/Potter/)
-* [Binary Tree Preorder Traversal on LeetCode](https://leetcode.com/explore/learn/card/data-structure-tree/134/traverse-a-tree/928/)
-* [Binary Tree Inorder Traversal on LeetCode](https://leetcode.com/explore/learn/card/data-structure-tree/134/traverse-a-tree/929/)
+
+There are solutions in this repository for the following platforms.
+
+### [CodingDojo](http://codingdojo.org)
+* [Potter Kata](http://codingdojo.org/kata/Potter/)
+### [LeetCode](http://leetcode.com)
+* [Binary Tree Preorder Traversal](https://leetcode.com/explore/learn/card/data-structure-tree/134/traverse-a-tree/928/)
+* [Binary Tree Inorder Traversal](https://leetcode.com/explore/learn/card/data-structure-tree/134/traverse-a-tree/929/)
 * [Binary Tree Postorder Traversal](https://leetcode.com/explore/learn/card/data-structure-tree/134/traverse-a-tree/930/)
-* [Binary Tree Level Order Traversal in on LeetCode](https://leetcode.com/explore/learn/card/data-structure-tree/134/traverse-a-tree/931/)
+* [Binary Tree Level Order Traversal](https://leetcode.com/explore/learn/card/data-structure-tree/134/traverse-a-tree/931/)
