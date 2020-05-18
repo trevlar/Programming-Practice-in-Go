@@ -35,7 +35,7 @@ func getDistinctPricesBasedOnStartSize(books []int, size int) float64 {
 
 	for booksRemainToPrice {
 
-		// If it's an even set of four then go with four otherwise default to distinct division.
+		// If I can acquire groups of the size passed in use it otherwise default to distinct division.
 		booksInGroup, groupOfCount := getGroupsOfDiscountedBooks(books, size)
 		if groupOfCount > 0 {
 			discountRate, err := getDiscountRate(size)
