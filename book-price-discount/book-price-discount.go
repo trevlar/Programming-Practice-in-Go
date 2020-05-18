@@ -29,10 +29,6 @@ func calculatePriceOfBooks(books []int) float64 {
 
 }
 
-func formatPrice(price float64) string {
-	return fmt.Sprintf("$%4.2f", math.Round(price*100)/100)
-}
-
 func getDistinctPricesBasedOnStartSize(books []int, size int) float64 {
 	totalPrice := 0.0
 	booksRemainToPrice := len(books) > 0
@@ -143,4 +139,8 @@ func removeBooksFromList(books []int, toRemove []int) []int {
 
 func remove(slice []int, s int) []int {
 	return append(slice[:s], slice[s+1:]...)
+}
+
+func formatPrice(price float64) string {
+	return fmt.Sprintf("$%4.2f", math.Round(price*100)/100)
 }
