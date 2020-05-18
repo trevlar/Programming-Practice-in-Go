@@ -1,6 +1,6 @@
 # Coding Dojo
 ## Potter
-This is a solution to the kata found at http://codingdojo.org/kata/Potter/.
+This is a solution to the kata found at [http://codingdojo.org/kata/Potter/](http://codingdojo.org/kata/Potter/){:target="_blank"}.
 
 ### Explanation
 
