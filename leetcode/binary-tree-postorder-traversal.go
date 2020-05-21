@@ -1,3 +1,5 @@
+package leetcode
+
 /**
  * Definition for a binary tree node.
  * type TreeNode struct {
@@ -14,10 +16,10 @@ func postorderTraversal(root *TreeNode) (result []int) {
 	var stack []*TreeNode
 	stack = append(stack, root)
 
-	return recursivePreorderTraversal(stack, result)
+	return recursivePostorderTraversal(stack, result)
 }
 
-func recursivePreorderTraversal(stack []*TreeNode, result []int) []int {
+func recursivePostorderTraversal(stack []*TreeNode, result []int) []int {
 	node, stack := stack[len(stack)-1], stack[:len(stack)-1]
 	result = append([]int{node.Val}, result...)
 

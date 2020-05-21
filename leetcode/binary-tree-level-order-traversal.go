@@ -1,3 +1,5 @@
+package leetcode
+
 /**
  * Definition for a binary tree node.
  * type TreeNode struct {
@@ -33,4 +35,3 @@ func levelOrder(root *TreeNode) (result [][]int) {
 
 	return result
 }
-
