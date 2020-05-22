@@ -10,23 +10,23 @@ package leetcode
  */
 func levelOrder(root *TreeNode) (result [][]int) {
 	var node *TreeNode
-	queue := make(chan *TreeNode, 0)
 
 	if root == nil {
 		return result
 	}
 
-	queue <- root
+	queue := make([]*TreeNode, 0)
+	queue = append(queue, root)
 	for len(queue) > 0 {
 		levelNum := len(queue)
 		var subList []int
 		for i := 0; i < levelNum; i++ {
-			node = <-queue
+			node, queue = queue[0], queue[1:]
 			if node.Left != nil {
-				queue <- node.Left
+				queue = append(queue, node.Left)
 			}
 			if node.Right != nil {
-				queue <- node.Right
+				queue = append(queue, node.Right)
 			}
 			subList = append(subList, node.Val)
 		}

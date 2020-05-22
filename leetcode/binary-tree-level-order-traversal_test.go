@@ -21,7 +21,7 @@ func TestLevelOrderTraversal(t *testing.T) {
 	}
 
 	actual := levelOrder(tree)
-	expected := []int{1, 2, 3}
+	expected := [][]int{[]int{1}, []int{2}, []int{3}}
 	if !reflect.DeepEqual(actual, expected) {
 		t.Errorf("Values abstracted from tree is incorrect, got: %v, want: %v.", actual, expected)
 	}
